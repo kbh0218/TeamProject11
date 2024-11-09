@@ -22,7 +22,7 @@ app.use('/js', express.static(path.join(__dirname, 'public', 'js')));
 
 // 메인 페이지 라우팅
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'rice.html'));
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 // 게시판 페이지 라우팅
