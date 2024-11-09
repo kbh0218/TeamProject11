@@ -190,34 +190,3 @@ function showBoard() {
 function showRating() {
     window.location.href = '#2'; // 평가로 이동
 }
-
-// 로그인이 구현되면 사용
-// function showBoard() {
-//     if (isLoggedIn()) {
-//         window.location.href = 'index.html'; // 게시판으로 이동
-//     } else {
-//         alert('로그인 후 이용 가능합니다.');
-//         // 선택적으로 로그인 페이지로 리다이렉트할 수 있습니다.
-//         // window.location.href = 'login.html';
-//     }
-// }
-
-// function showRating() {
-//     if (isLoggedIn()) {
-//         window.location.href = '#2'; // 평가로 이동
-//     } else {
-//         alert('로그인 후 이용 가능합니다.');
-//         // 선택적으로 로그인 페이지로 리다이렉트할 수 있습니다.
-//         // window.location.href = 'login.html';
-//     }
-// }
-
-function showLogin() {
-    // 로그인 페이지나 모달을 표시하는 코드
-    alert("로그인 기능은 아직 구현되지 않았습니다.");
-}
-
-function showSignup() {
-    // 회원가입 페이지나 모달을 표시하는 코드
-    alert("회원가입 기능은 아직 구현되지 않았습니다.");
-}
