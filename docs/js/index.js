@@ -182,10 +182,10 @@ function closePopupOnOutsideClick(event) {
 }
 
 function goHome() {
-    window.location.href = '/'; // 홈으로 이동
+    window.location.href = '/TeamProject11'; // 홈으로 이동
 }
 function showBoard() {
-    window.location.href = '/board.html'; // 게시판으로 이동
+    window.location.href = '/TeamProject11/board.html'; // 게시판으로 이동
 }
 function showRating() {
     window.location.href = '#2'; // 평가로 이동
